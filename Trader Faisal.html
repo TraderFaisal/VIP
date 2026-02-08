@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trader Faisal | VIP SIGNAL v4.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Rajdhani:wght@300;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --neon-cyan: #00F2FF;
+            --neon-green: #00FF41;
+            --neon-purple: #BC13FE;
+        }
+
+        body {
+            background-color: #02040A;
+            color: #E2E8F0;
+            font-family: 'Rajdhani', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .orbitron { font-family: 'Orbitron', sans-serif; }
+
+        /* Glowing Border Animation */
+        .vip-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(0, 242, 255, 0.1);
+            position: relative;
+            transition: 0.5s ease;
+        }
+
+        .vip-card::after {
+            content: '';
+            position: absolute;
+            top: -1px; left: -1px; right: -1px; bottom: -1px;
+            background: linear-gradient(45deg, var(--neon-cyan), transparent, var(--neon-purple));
+            z-index: -1;
+            opacity: 0.2;
+        }
+
+        .vip-card:hover {
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+            transform: translateY(-5px);
+        }
+
+        /* Signal Pulse */
+        .pulse {
+            width: 10px; height: 10px;
+            background: var(--neon-green);
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 10px var(--neon-green);
+            animation: pulse-animation 1.5s infinite;
+        }
+
+        @keyframes pulse-animation {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 65, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(0, 255, 65, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 65, 0); }
+        }
+
+        .buy-now-btn {
+            background: linear-gradient(90deg, #0088cc, #00F2FF);
+            color: black;
+            font-weight: 900;
+            transition: 0.3s;
+            text-shadow: 0 0 5px rgba(255,255,255,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="max-w-7xl mx-auto p-6 flex justify-between items-center relative z-20">
+        <div class="text-2xl font-black orbitron text-cyan-400 tracking-tighter">
+            TRADER <span class="text-white">FAISAL</span>
+        </div>
+        <div class="flex gap-6 items-center">
+            <span class="text-xs orbitron text-green-400 flex items-center gap-2">
+                <span class="pulse"></span> LIVE SIGNAL
+            </span>
+            <a href="https://t.me/TraderFaisalAhmed" target="_blank" class="buy-now-btn px-4 py-2 rounded-sm text-[10px] orbitron">
+                CONTACT ME
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 pt-10 pb-20">
+        <div class="text-center mb-16">
+            <h1 class="text-6xl md:text-8xl font-black orbitron mb-4 italic">
+                VIP <span class="text-cyan-400">SIGNALS</span>
+            </h1>
+            <p class="text-gray-400 tracking-[5px] uppercase text-xs">Precision Trading • Neural Analysis • Financial Freedom</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            
+            <div class="vip-card p-10 rounded-3xl">
+                <div class="absolute top-0 right-0 p-4 orbitron text-[10px] text-cyan-500 opacity-30">ENCRYPTED_ID: #8892</div>
+                <h2 class="text-4xl font-black orbitron mb-6">PREMIUM PRICE ACTION <br> COURSE</h2>
+                <ul class="space-y-4 mb-10 text-gray-300">
+                    <li class="flex items-center gap-3">✓ Advance SMC & Liquidity Secrets</li>
+                    <li class="flex items-center gap-3">✓ Risk Management </li>
+                    <li class="flex items-center gap-3">✓ Psychology & Disciplined Trading</li>
+                    <li class="flex items-center gap-3">✓ Private Community Access</li>
+                    <li class="flex items-center gap-3">✓ Private Strategy</li>
+                    <li class="flex items-center gap-3">✓ E.T.C</li>
+                </ul>
+                <div class="flex items-end justify-between border-t border-cyan-500/20 pt-8">
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase orbitron mb-1">One Time Payment</p>
+                        <p class="text-5xl font-black orbitron">৳ ৫,৫০০</p>
+                    </div>
+                    <a href="https://t.me/TraderFaisalAhmed?text=Hello Faisal Bhai, I want to Buy your Premium PRICE ACTION Course." target="_blank" class="buy-now-btn px-10 py-5 rounded-xl text-xl orbitron hover:scale-105">
+                        BUY NOW
+                    </a>
+                </div>
+            </div>
+
+            <div class="vip-card p-10 rounded-3xl border-l-4 border-l-purple-500">
+                <h2 class="text-4xl font-black orbitron mb-6 text-purple-400">LIVE<br> SIGNAL FOR QUTEX</h2>
+                
+                <div class="space-y-4">
+                    <div class="bg-white/5 p-4 rounded-xl border border-white/5 flex justify-between items-center">
+                        <div>
+                            <p class="orbitron text-sm text-cyan-400">CHF / JPY</p>
+                            <p class="text-[10px] text-gray-500 uppercase">Strategy: Price Action </p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-green-400 font-bold"> UP </p>
+                            <p class="text-xs text-white">Trade with 10% CAPITAL</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/5 p-4 rounded-xl border border-white/5 flex justify-between items-center opacity-60">
+                        <div>
+                            <p class="orbitron text-sm text-purple-400">EUR / USDT</p>
+                            <p class="text-[10px] text-gray-500 uppercase">Strategy: Price Action</p>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-red-400 font-bold">DOWN ✅</p>
+                            <p class="text-xs text-white">Trade With 3% Risk</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-10">
+                    <p class="text-xs text-center text-gray-500 mb-4 orbitron">Get Unlimited Signals Daily</p>
+                    <a href="https://t.me/TraderFaisalAhmed?text=Hello Faisal Bhai, I want to join your VIP Signal Group." target="_blank" class="w-full block text-center border border-purple-500 text-purple-500 py-4 rounded-xl font-bold orbitron hover:bg-purple-500 hover:text-black transition">
+                        JOIN VIP SIGNALS
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-20 text-center">
+            <p class="text-xs text-gray-600 orbitron tracking-[10px]">DIRECT CONTACT</p>
+            <h3 class="text-2xl font-bold mt-2">@TraderFaisalAhmed</h3>
+            <div class="flex justify-center gap-6 mt-6">
+                <a href="#" class="text-gray-400 hover:text-cyan-400 transition">FACEBOOK</a>
+                <a href="#" class="text-gray-400 hover:text-cyan-400 transition">YOUTUBE</a>
+                <a href="YouTube.com/@TraderFaisal" class="text-gray-400 hover:text-cyan-400 transition">TELEGRAM</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
